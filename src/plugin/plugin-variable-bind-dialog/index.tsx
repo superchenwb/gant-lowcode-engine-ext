@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Dialog, Input, Button, Icon, Tree } from '@alifd/next';
-import { PluginProps } from '@alilc/lowcode-types';
-import { event, project } from '@alilc/lowcode-engine';
+import { PluginProps } from '@gant-lowcode/lowcode-types';
+import { event, project } from '@gant-lowcode/lowcode-engine';
 import MonacoEditor from '@alilc/lowcode-plugin-base-monaco-editor';
 import './index.less';
 
@@ -86,7 +86,7 @@ export default class VariableBindDialog extends Component<PluginProps> {
       });
     });
 
-    
+
 
   }
 
@@ -531,7 +531,7 @@ export default class VariableBindDialog extends Component<PluginProps> {
     const {isOverFlowMaxSize,maxTextSize} = this.state;
     return (
       isOverFlowMaxSize ? <span className='error-message'>表达式文本不能超过{maxTextSize}个字符，请换成函数调用</span> :null
-      
+
     )
   }
 

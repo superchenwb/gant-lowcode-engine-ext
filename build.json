@@ -5,8 +5,8 @@
     "react-dom": "var window.ReactDOM",
     "prop-types": "var window.PropTypes",
     "rax": "var window.Rax",
-    "@alilc/lowcode-engine": "var window.AliLowCodeEngine",
-    "@alilc/lowcode-engine-ext": "var window.AliLowCodeEngineExt",
+    "@gant-lowcode/lowcode-engine": "var window.GantLowCodeEngine",
+    "@gant-lowcode/lowcode-engine-ext": "var window.GantLowCodeEngineExt",
     "moment": "var moment",
     "lodash": "var _",
     "@alifd/next": "var Next"

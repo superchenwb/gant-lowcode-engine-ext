@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Select } from '@alifd/next';
-import { project } from '@alilc/lowcode-engine';
+import { project } from '@gant-lowcode/lowcode-engine';
 import './index.less';
 
 export interface PluginProps {

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useState, ErrorInfo, useMemo } from 'react';
 import { Radio, Select, Box } from '@alifd/next';
-import { SettingTarget, CustomView } from '@alilc/lowcode-types';
+import { SettingTarget, CustomView } from '@gant-lowcode/lowcode-types';
 
 import './index.scss';
 import { BehaviorAction } from './types';

@@ -1,4 +1,4 @@
-import { common } from '@alilc/lowcode-engine';
+import { common } from '@gant-lowcode/lowcode-engine';
 import en_US from './en-US.json';
 import zh_CN from './zh-CN.json';
 const { editorCabin } = common;

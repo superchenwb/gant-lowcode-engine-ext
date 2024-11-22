@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Component, Fragment } from 'react';
 import { Button } from '@alifd/next';
-import { common } from '@alilc/lowcode-engine';
-import { IPublicTypeSetterType, IPublicModelSettingField, IPublicTypeFieldConfig, IPublicTypeCustomView, IPublicTypeTitleContent } from '@alilc/lowcode-types';
+import { common } from '@gant-lowcode/lowcode-engine';
+import { IPublicTypeSetterType, IPublicModelSettingField, IPublicTypeFieldConfig, IPublicTypeCustomView, IPublicTypeTitleContent } from '@gant-lowcode/lowcode-types';
 import CustomIcon from '../../components/custom-icon';
 import './index.less';
 

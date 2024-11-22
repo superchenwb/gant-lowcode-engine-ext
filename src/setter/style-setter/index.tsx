@@ -9,7 +9,7 @@ import { StyleData } from './utils/types';
 import { ConfigProvider } from '@alifd/next';
 import enUS from '@alifd/next/lib/locale/en-us';
 import zhCN from '@alifd/next/lib/locale/zh-cn';
-import { common } from '@alilc/lowcode-engine';
+import { common } from '@gant-lowcode/lowcode-engine';
 import './index.less';
 
 const { getLocale } = common.utils.createIntl?.() || {};

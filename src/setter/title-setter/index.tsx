@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Switch, Input, Box } from '@alifd/next';
-import { SettingTarget } from '@alilc/lowcode-types';
+import { SettingTarget } from '@gant-lowcode/lowcode-types';
 
 import './index.scss';
 

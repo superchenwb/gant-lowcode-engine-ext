@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Component, Fragment } from 'react';
-import { common } from '@alilc/lowcode-engine';
+import { common } from '@gant-lowcode/lowcode-engine';
 import { Button, Message } from '@alifd/next';
-import { IPublicModelSettingField, IPublicTypeSetterType, IPublicTypeFieldConfig, IPublicTypeSetterConfig } from '@alilc/lowcode-types';
+import { IPublicModelSettingField, IPublicTypeSetterType, IPublicTypeFieldConfig, IPublicTypeSetterConfig } from '@gant-lowcode/lowcode-types';
 import CustomIcon from '../../components/custom-icon';
 import Sortable from './sortable';
 import './style.less';
@@ -196,7 +196,7 @@ export class ListSetter extends Component<ArraySetterProps, ArraySetterState> {
         {content}
         <div className="lc-setter-list-add">
           {
-            !renderFooter 
+            !renderFooter
               ? (itemMaxLength && items.length >= Number(itemMaxLength)
                 ? null
                 :(
@@ -205,7 +205,7 @@ export class ListSetter extends Component<ArraySetterProps, ArraySetterState> {
                   }}>
                     <span>添加一项 +</span>
                   </Button>
-              )) 
+              ))
               : renderFooter({...this.props, onAdd: this.onAdd.bind(this),})
           }
         </div>

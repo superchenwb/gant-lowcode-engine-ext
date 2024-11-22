@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { event } from '@alilc/lowcode-engine';
+import { event } from '@gant-lowcode/lowcode-engine';
 import './index.less';
 
 export default class SetterVariable extends PureComponent {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { isJSExpression, isJSFunction, isJSSlot } from '@alilc/lowcode-types';
+import { isJSExpression, isJSFunction, isJSSlot } from '@gant-lowcode/lowcode-types';
 import { isPlainObject } from './utils';
 import { DatePicker, TimePicker } from '@alifd/next';
 import moment from 'moment';
@@ -232,9 +232,9 @@ const engineExt = {
   },
 };
 engineExt.version = packagesInfo.version;
-window.AliLowCodeEngineExt = engineExt;
+window.GantLowCodeEngineExt = engineExt;
 console.log(
-  '%c AliLowCodeExt %c v'.concat(engineExt.version, ' '),
+  '%c GantLowCodeExt %c v'.concat(engineExt.version, ' '),
   'padding: 2px 1px; border-radius: 3px 0 0 3px; color: #fff; background: #5584ff; font-weight: bold;',
   'padding: 2px 1px; border-radius: 0 3px 3px 0; color: #fff; background: #42c02e; font-weight: bold;',
 );

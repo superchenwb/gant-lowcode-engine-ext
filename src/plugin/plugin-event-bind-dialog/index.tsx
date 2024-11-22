@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import * as React from 'react';
-import { event, project, skeleton } from '@alilc/lowcode-engine';
+import { event, project, skeleton } from '@gant-lowcode/lowcode-engine';
 import { Dialog, Search, Input, Balloon, Icon, Switch, Message } from '@alifd/next';
-import { PluginProps } from '@alilc/lowcode-types';
+import { PluginProps } from '@gant-lowcode/lowcode-types';
 import MonacoEditor from '@alilc/lowcode-plugin-base-monaco-editor';
 import './index.less';
 

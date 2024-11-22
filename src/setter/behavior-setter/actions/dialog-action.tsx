@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { SettingTarget } from '@alilc/lowcode-types';
+import { SettingTarget } from '@gant-lowcode/lowcode-types';
 import { Select, Box } from '@alifd/next';
 import { BehaviorActionProps, BehaviorAction } from '../types';
 

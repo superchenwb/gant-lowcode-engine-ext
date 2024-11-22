@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Overlay } from '@alifd/next';
-import { PluginProps } from '@alilc/lowcode-types';
-import { event } from '@alilc/lowcode-engine';
+import { PluginProps } from '@gant-lowcode/lowcode-types';
+import { event } from '@gant-lowcode/lowcode-engine';
 import MonacoEditor from '@alilc/lowcode-plugin-base-monaco-editor';
 import './index.less';
 import { adjustOverlayPosition } from './utils';

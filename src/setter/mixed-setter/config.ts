@@ -1,5 +1,5 @@
 import { ReactNode } from "react"
-import { SettingField } from '@alilc/lowcode-engine';
+import { SettingField } from '@gant-lowcode/lowcode-engine';
 
 class MixedSetterConfig {
   config: {
