@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Button } from '@alifd/next';
 import { StyleData } from '../../utils/types';
 import { parseToCssCode, parseToStyleData } from '../../utils';
-import MonacoEditor from '@alilc/lowcode-plugin-base-monaco-editor';
+import MonacoEditor from '@gant-lowcode/lowcode-plugin-base-monaco-editor';
 import Icon from '../../components/icon';
 import { intlLocal } from './locale';
 

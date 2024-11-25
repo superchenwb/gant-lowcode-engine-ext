@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Dialog, Input, Button, Icon, Tree } from '@alifd/next';
 import { PluginProps } from '@gant-lowcode/lowcode-types';
 import { event, project } from '@gant-lowcode/lowcode-engine';
-import MonacoEditor from '@alilc/lowcode-plugin-base-monaco-editor';
+import MonacoEditor from '@gant-lowcode/lowcode-plugin-base-monaco-editor';
 import './index.less';
 
 const HelpText = `你可以通过点击左侧区域绑定变量或处理函数，当然你也可以在上方输入复杂的表达式。

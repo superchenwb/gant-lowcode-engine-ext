@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 // import PropTypes from 'prop-types';
 import { Button, Icon, Dialog } from '@alifd/next';
-import MonacoEditor from '@alilc/lowcode-plugin-base-monaco-editor';
+import MonacoEditor from '@gant-lowcode/lowcode-plugin-base-monaco-editor';
 import CustomIcon from '../../components/custom-icon';
 import { js_beautify } from 'js-beautify';
 import { intl } from './locale';

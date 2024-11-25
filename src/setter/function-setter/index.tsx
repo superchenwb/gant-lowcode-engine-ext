@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Button, Icon, Dialog } from '@alifd/next';
-import MonacoEditor from '@alilc/lowcode-plugin-base-monaco-editor';
+import MonacoEditor from '@gant-lowcode/lowcode-plugin-base-monaco-editor';
 import { event, skeleton } from '@gant-lowcode/lowcode-engine';
 import { js_beautify } from 'js-beautify';
 import './index.less';
